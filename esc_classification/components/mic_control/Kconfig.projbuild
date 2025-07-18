@@ -1,0 +1,26 @@
+menu "Microphone Configuration"
+
+config MIC_TYPE
+    string
+    prompt "Microphone Type"
+    default "INMP441"
+    help
+        Select the microphone type connected to the ESP32.
+
+choice
+    prompt "Select microphone model"
+    default MIC_TYPE_INMP441
+
+config MIC_TYPE_INMP441
+    bool "INMP441"
+    help
+        I2S digital microphone, mono, left channel.
+
+config MIC_TYPE_SPH0645
+    bool "SPH0645"
+    help
+        I2S digital microphone from Adafruit, mono, left channel.
+
+endchoice
+
+endmenu

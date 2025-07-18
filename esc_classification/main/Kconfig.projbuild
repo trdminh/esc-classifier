@@ -1,0 +1,40 @@
+# Audio Classification Configuration
+menu "Audio Classification"
+    
+    config AUDIO_SAMPLE_RATE
+        int "Audio Sample Rate"
+        default 16000
+        help
+            Sample rate for audio processing in Hz.
+    
+    config AUDIO_BUFFER_SIZE
+        int "Audio Buffer Size"
+        default 1024
+        help
+            Size of audio buffer in samples.
+    
+    config MFCC_NUM_COEFFS
+        int "Number of MFCC Coefficients"
+        default 13
+        help
+            Number of MFCC coefficients to extract.
+            
+    config I2S_SCK_PIN
+        int "I2S SCK Pin"
+        default 11
+        help
+            GPIO pin for I2S serial clock.
+            
+    config I2S_WS_PIN
+        int "I2S WS Pin"
+        default 10
+        help
+            GPIO pin for I2S word select.
+            
+    config I2S_SD_PIN
+        int "I2S SD Pin"
+        default 12
+        help
+            GPIO pin for I2S serial data.
+            
+endmenu
