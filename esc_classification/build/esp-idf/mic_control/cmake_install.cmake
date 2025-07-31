@@ -1,4 +1,4 @@
-# Install script for directory: E:/Project/esc_classification/components/mic_control
+# Install script for directory: E:/Project/esc-classifier/esc_classification/components/mic_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -84,7 +84,7 @@ $<TARGET_FILE:__idf_wifi_provisioning>
 $<TARGET_FILE:__idf_espressif__esp-dsp>
 $<TARGET_FILE:__idf_espressif__dl_fft>
 $<TARGET_FILE:__idf_esp-sr>
-$<TARGET_FILE:__idf_main>
-$<TARGET_FILE:__idf_espressif__esp-nn>
+$<TARGET_FILE:__idf_esp-nn>
 $<TARGET_FILE:__idf_esp-tflite-micro>
 $<TARGET_FILE:__idf_mic_control>
+$<TARGET_FILE:__idf_main>

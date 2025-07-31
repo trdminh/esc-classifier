@@ -1,4 +1,4 @@
-# Install script for directory: E:/Project/esc_classification/components/esp-tflite-micro
+# Install script for directory: E:/Project/esc-classifier/esc_classification/components/esp-tflite-micro
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: E:/Project/esc_classification/managed_components/espressif__esp-dsp
+# Install script for directory: E:/Project/esc-classifier/esc_classification/managed_components/espressif__esp-dsp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

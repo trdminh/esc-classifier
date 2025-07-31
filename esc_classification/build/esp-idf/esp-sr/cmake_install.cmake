@@ -1,4 +1,4 @@
-# Install script for directory: E:/Project/esc_classification/components/esp-sr
+# Install script for directory: E:/Project/esc-classifier/esc_classification/components/esp-sr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

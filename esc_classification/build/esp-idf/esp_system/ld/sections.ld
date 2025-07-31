@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: E:\Project\esc_classification\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: E:\Project\esc-classifier\esc_classification\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

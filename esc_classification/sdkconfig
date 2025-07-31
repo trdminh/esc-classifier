@@ -540,6 +540,14 @@ CONFIG_I2S_SD_PIN=12
 # end of Audio Classification
 
 #
+# ESP-NN
+#
+# CONFIG_NN_ANSI_C is not set
+CONFIG_NN_OPTIMIZED=y
+CONFIG_NN_OPTIMIZATIONS=1
+# end of ESP-NN
+
+#
 # ESP Speech Recognition
 #
 CONFIG_MODEL_IN_FLASH=y
@@ -623,14 +631,6 @@ CONFIG_MIC_TYPE="INMP441"
 CONFIG_MIC_TYPE_INMP441=y
 # CONFIG_MIC_TYPE_SPH0645 is not set
 # end of Microphone Configuration
-
-#
-# ESP-NN
-#
-# CONFIG_NN_ANSI_C is not set
-CONFIG_NN_OPTIMIZED=y
-CONFIG_NN_OPTIMIZATIONS=1
-# end of ESP-NN
 
 #
 # Compiler options

@@ -1,4 +1,4 @@
-# Install script for directory: E:/Project/esc_classification
+# Install script for directory: E:/Project/esc-classifier/esc_classification
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/Project/esc_classification/build/esp-idf/cmake_install.cmake")
+  include("E:/Project/esc-classifier/esc_classification/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Project/esc_classification/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Project/esc-classifier/esc_classification/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

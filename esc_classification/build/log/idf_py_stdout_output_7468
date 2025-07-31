@@ -1,0 +1,13 @@
+[1/7] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D E:\Project\esc-classifier\esc_classification\build\bootloader\esp-idf\esptool_py && D:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe D:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 E:/Project/esc-classifier/esc_classification/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5260 bytes. 0x2da0 bytes (36%) free.
+[2/5] Generating ld/sections.ld
+[3/5] Linking CXX executable app-template.elf
+[4/5] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated E:/Project/esc-classifier/esc_classification/build/app-template.bin
+[5/5] cmd.exe /C "cd /D E:\Project\esc-classifier\esc_classification\build\esp-idf\esptool_py && D:\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe D:/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app E:/Project/esc-classifier/esc_classification/build/partition_table/partition-table.bin E:/Project/esc-classifier/esc_classification/build/app-template.bin"
+app-template.bin binary size 0x5c720 bytes. Smallest app partition is 0x100000 bytes. 0xa38e0 bytes (64%) free.
