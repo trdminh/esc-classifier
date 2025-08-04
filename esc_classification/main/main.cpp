@@ -316,3 +316,5 @@ void i2s_std_config(void)
 
     ESP_ERROR_CHECK(i2s_channel_init_std_mode(rx_handle, &std_cfg));
 }
+
+
