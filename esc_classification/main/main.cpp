@@ -236,7 +236,7 @@ extern "C" void app_main(void)
     
     esp_mfcc_data_t *runner = mfcc_iface->create(&opts);
     if (runner == NULL) {
-        printf("Không thể khởi tạo runner MFCC\n");
+        printf("Can't create MFCC\n");
         return;
     }
     size_t bytesIn = 0;

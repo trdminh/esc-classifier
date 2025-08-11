@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.io import wavfile
-
 import librosa
 def plot_full_wav(filename):
     sample_rate, data = wavfile.read(filename)
