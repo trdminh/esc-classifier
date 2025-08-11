@@ -244,7 +244,6 @@ extern "C" void app_main(void)
     
     int samples_per_frame = (SAMPLE_RATE * opts.winstep_ms) / 1000;
     ESP_LOGI(TAG, "Expected samples per frame: %d", samples_per_frame);
-    
     while (1)
     {
         ret = i2s_channel_read(rx_handle, &sBuffer, bufferLen * sizeof(int16_t), &bytesIn, portMAX_DELAY);
